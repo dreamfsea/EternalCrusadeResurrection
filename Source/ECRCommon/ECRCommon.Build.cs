@@ -23,5 +23,7 @@ public class ECRCommon : ModuleRules
 				"ApplicationCore"
 			}
 		);
+
+		bUseUnity = false;
 	}
 }

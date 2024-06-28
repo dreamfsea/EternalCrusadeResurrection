@@ -177,7 +177,7 @@ bool UECRRangedWeaponInstance::UpdateSpread(float DeltaSeconds)
 	{
 		const float CooldownRate = HeatToCoolDownPerSecondCurve.GetRichCurveConst()->Eval(CurrentHeat);
 
-		// Update heat only on server
+		// Updates heat only on server
 		if (GetWorld()->GetNetMode() < NM_Client)
 		{
 			CurrentHeat = ClampHeat(CurrentHeat - (CooldownRate * DeltaSeconds));

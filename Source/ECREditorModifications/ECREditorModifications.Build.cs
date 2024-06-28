@@ -29,5 +29,7 @@ public class ECREditorModifications : ModuleRules
 		{
 			System.IO.Path.GetFullPath(Target.RelativeEnginePath) + "Source/Editor/Blutility/Private"
 		});
+
+		bUseUnity = false;
 	}
 }

@@ -49,5 +49,7 @@ public class ECR : ModuleRules
 			"Slate", 
 			"SlateCore"
 		});
+		
+		bUseUnity = false;
 	}
 }
